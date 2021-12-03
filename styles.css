@@ -61,14 +61,16 @@ span{
 }
 
 .arrow{
+	width: 3vw;
+	height: 3vw;
+	background-color: white;
 	position: absolute;
-	bottom: 7%;
-	left: 50%;
-	font-size: 2vw;
+	bottom: 5%;
+	left : 50%;
 	border-radius: 50%;
-		background-color: black;
-		width: 3vw;
-		display: flex;
-		justify-content: center;
+	padding: 5px;
+	
+	
+
 
 }
