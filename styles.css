@@ -50,25 +50,31 @@ span{
 }
 
 .header h1{
-	font-size: 5vw;
+	font-size: clamp(45px, 7vw, 110px);
 }
 
 .header h2{
-	font-size: 3vw;
+	font-size: clamp(45px, 5vw, 110px);
 }
 .header button{
-	margin-top: 10px;
+	font-size: 20px;
+	margin-top: 15px;
+	padding: 10px 12px;
+  border-radius: 3px;
 }
 
 .arrow{
-	width: 3vw;
-	height: 3vw;
+	width: 5vw;
+	height: 5vw;
 	background-color: white;
 	position: absolute;
 	bottom: 5%;
 	left : 50%;
 	border-radius: 50%;
-	padding: 5px;
+	padding: 13px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	
 	
 
