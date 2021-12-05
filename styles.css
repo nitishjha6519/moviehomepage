@@ -50,11 +50,11 @@ span{
 }
 
 .header h1{
-	font-size: clamp(45px, 7vw, 110px);
+	font-size: 7vw;
 }
 
-.header h2{
-	font-size: clamp(45px, 5vw, 110px);
+.header h2 {
+	font-size: 6vw;
 }
 .header button{
 	font-size: 20px;
@@ -67,16 +67,36 @@ span{
 	width: 5vw;
 	height: 5vw;
 	background-color: white;
+	border-radius: 50%;
+	padding: 13px;
 	position: absolute;
 	bottom: 5%;
 	left : 50%;
-	border-radius: 50%;
-	padding: 13px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	transform: translate(-50%);
+	cursor: pointer;
+	box-shadow: 0 0 0 0 #fff;
+	animation: anim 1.3s ease-in-out infinite;
 	
-	
+}
 
+
+@keyframes anim {
+	to {
+		box-shadow: 0 0 0 16px #fff;
+	}
+}
+@media (max-width: 500px) {
+
+nav {
+   font-size: 5vw;
+	justify-content: space-around;
+}
+
+
+.arrow{
+	width: 15vw;
+	height: 15vw;
+
+}
 
 }
